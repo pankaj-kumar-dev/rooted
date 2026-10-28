@@ -1,0 +1,41 @@
+:root {
+  color-scheme: dark;
+  --bg: #07100b;
+  --bg-elevated: #0d1710;
+  --surface: #101d14;
+  --surface-raised: #16241a;
+  --border: rgba(190, 218, 177, 0.16);
+  --border-strong: rgba(190, 218, 177, 0.32);
+  --text: #f0f2e9;
+  --text-muted: #a9b5a5;
+  --green: #b9dda0;
+  --green-strong: #76bd68;
+  --green-deep: #285b35;
+  --slip: #df7864;
+  --slip-deep: #743b32;
+  --neutral: #8f998b;
+  --focus: #e2f5c8;
+
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --font-ui: Inter, "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: clamp(4rem, 9vw, 7.5rem);
+
+  --radius-sm: 8px;
+  --radius: 16px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 18px 40px -22px rgba(0, 0, 0, 0.8);
+  --glow: 0 0 60px -12px rgba(118, 189, 104, 0.28);
+
+  --max-width: 1240px;
+  --gutter: clamp(1rem, 4vw, 2rem);
+}
